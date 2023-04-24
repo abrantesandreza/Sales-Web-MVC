@@ -1,9 +1,11 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using ProjetoWebSales.Data;
+
+
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<ProjetoWebSalesContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("ProjetoWebSalesContext") ?? throw new InvalidOperationException("Connection string 'ProjetoWebSalesContext' not found.")));
+    options.UseSqlServer(builder.Configuration.GetConnectionString("ProjetoWebSales")));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
