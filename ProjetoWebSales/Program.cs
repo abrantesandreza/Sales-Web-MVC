@@ -4,8 +4,9 @@ using ProjetoWebSales.Data;
 
 
 var builder = WebApplication.CreateBuilder(args);
+
 builder.Services.AddDbContext<ProjetoWebSalesContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("ProjetoWebSales")));
+    options.UseSqlServer(builder.Configuration.GetConnectionString("ProjetoWebSales") ?? throw new InvalidOperationException("Connection string 'ProjetoWebSales' not found.")));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
