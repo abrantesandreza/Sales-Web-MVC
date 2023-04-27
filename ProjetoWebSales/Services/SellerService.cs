@@ -1,6 +1,7 @@
 ﻿using ProjetoWebSales.Data;
 using ProjetoWebSales.Models;
 using Microsoft.EntityFrameworkCore;
+using ProjetoWebSales.Services.Exceptions;
 
 namespace ProjetoWebSales.Services
 {
@@ -36,5 +37,23 @@ namespace ProjetoWebSales.Services
             _context.SaveChanges();
         }
 
+        public void Update(Seller obj)
+        {
+            if (!_context.Seller.Any(x => x.Id == obj.Id))
+            {
+                throw new NotFoundException("Id not found");
+            }
+            try
+            {
+                _context.Update(obj);
+                _context.SaveChanges();
+            }
+            catch (DbUpdateConcurrencyException e)
+            {
+                throw new DbConcurrencyException(e.Message);
+            }
+            
+        }
+         
     }
 }
