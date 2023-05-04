@@ -25,3 +25,17 @@ The Seller section of the web system allows users to add new sellers, edit exist
 ![7](https://user-images.githubusercontent.com/87620471/236297822-1745af5c-a26c-456b-9a7a-115eb41824d8.png)
 
 ![8](https://user-images.githubusercontent.com/87620471/236297837-eb14ad7f-f0db-4e23-9d40-98e49a5aa151.png)
+
+## Sales (Simple search and grouping search): 
+
+The Sales section of the web system provides two search options for sales data. The simple search allows users to filter sales data by date range, vendor, and department. The grouping search aggregates sales data by department, allowing for a broader overview of sales performance across different departments. This feature enables users to easily track sales data and identify trends and patterns that may require further attention.
+
+![9](https://user-images.githubusercontent.com/87620471/236298125-8532f4e3-6427-4df2-a901-27c7d2c8cfbf.png)
+
+![10](https://user-images.githubusercontent.com/87620471/236298144-ea36f097-9718-4c3a-a88f-fa4bee972387.png)
+
+![11](https://user-images.githubusercontent.com/87620471/236298163-fccc24fe-e345-4722-b39f-69af9e80b4a5.png)
+
+![12](https://user-images.githubusercontent.com/87620471/236298175-b3489ced-79ed-47e3-a9df-38a871559734.png)
+
+
