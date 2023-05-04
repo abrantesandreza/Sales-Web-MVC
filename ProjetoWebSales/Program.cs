@@ -4,6 +4,7 @@ using ProjetoWebSales.Data;
 using ProjetoWebSales.Services;
 using System.Globalization;
 using Microsoft.AspNetCore.Localization;
+using ProjetoWebSales.Services;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -15,6 +16,8 @@ builder.Services.AddDbContext<ProjetoWebSalesContext>(options =>
 builder.Services.AddControllersWithViews();
 builder.Services.AddScoped<SellerService>(); 
 builder.Services.AddScoped<DepartmentService>();
+builder.Services.AddScoped<SalesRecordService>();
+
 
 var app = builder.Build();
 
