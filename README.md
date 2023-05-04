@@ -38,4 +38,4 @@ The Sales section of the web system provides two search options for sales data. 
 
 ![12](https://user-images.githubusercontent.com/87620471/236298175-b3489ced-79ed-47e3-a9df-38a871559734.png)
 
-
+This web system is a powerful tool for managing sales data and vendor information. It offers a range of features, including the ability to create, edit, and delete departments, add, edit, and remove sellers, and perform simple or grouped searches of sales data. The system's user-friendly interface and intuitive design make it easy to navigate and use, while the underlying C# ASP.NET Core MVC framework, Entity Framework, and SQL Server database provide robust, reliable performance and scalability. Overall, the system is an effective solution for managing sales data and vendor information, providing businesses with the tools they need to make informed decisions and optimize their sales performance.
