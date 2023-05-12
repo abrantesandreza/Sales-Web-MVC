@@ -4,7 +4,7 @@ The web system is designed to manage information on sales made by registered ven
 
 ![1](https://user-images.githubusercontent.com/87620471/236296972-d94c5da4-d24a-4c28-90db-ba26124cde31.png)
 
-## Departments (create, edit, details, and delete):
+## Departments (create, edit, details, and delete)
 
 The Department section of the web system allows users to create new departments, edit existing ones, view details of departments, and delete departments as needed. The department information that can be managed includes the name and Id of each department.
 
