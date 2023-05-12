@@ -12,7 +12,7 @@ The Department section of the web system allows users to create new departments,
 
 ![3](https://user-images.githubusercontent.com/87620471/236297508-2542cff3-2e9a-4222-9172-7842ee69fbb9.png)
 
-## Seller (create, edit, details, and delete): 
+## Seller (create, edit, details, and delete)
 
 The Seller section of the web system allows users to add new sellers, edit existing seller information, view seller details, and delete sellers as required. The seller-related information that can be managed includes the seller's name, contact details, and base salary.
 
